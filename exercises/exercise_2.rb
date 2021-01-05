@@ -10,3 +10,5 @@ puts "----------"
 @store1.update(name: 'H&M')
 
 @store2 = Store.find_by(id: '2')
+
+@store4 = Store.find_by(id: '4')
